@@ -21,7 +21,7 @@ namespace Lab3
         //totalPayments and interestRate declared as doubles, years as integers, name as string
         double totalPayments = 0;
         const int MINYEARS = 5;
-        const string NAME = "Kang";        
+        const string NAME = "John";        
 
         //help picture
         private void picHelp_Click(object sender, EventArgs e)
@@ -41,7 +41,7 @@ namespace Lab3
         private void btnExit_Click(object sender, EventArgs e)
         {
             //string variable initialized and bring totalPayments variable converted to string(currency)
-            string messageClick = "Thanks for using the program! \n " +
+            string messageClick = "Thanks for using the program! \n If you want to support us send an email to : xxx@xxxx.ca " +
                 "Total payments= " + totalPayments.ToString("c");
             //use variable and const instead of typing the text
             MessageBox.Show(messageClick, NAME);
